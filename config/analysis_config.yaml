@@ -1,0 +1,97 @@
+# NIRF Analysis Configuration
+
+# Data Processing Settings
+data_processing:
+  validation:
+    required_columns:
+      - Institute ID
+      - Institute Name
+      - TLR(100)
+      - RPC(100)
+      - GO(100)
+      - OI(100)
+      - Perception(100)
+      - Score
+      - Ranking
+    value_ranges:
+      TLR(100): [0, 100]
+      RPC(100): [0, 100]
+      GO(100): [0, 100]
+      OI(100): [0, 100]
+      Perception(100): [0, 100]
+      Score: [0, 100]
+
+# Feature Engineering Settings
+feature_engineering:
+  categorical_features:
+    - State
+    - City
+  numerical_features:
+    - TLR(100)
+    - RPC(100)
+    - GO(100)
+    - OI(100)
+    - Perception(100)
+  create_interactions: true
+  polynomial_degree: 2
+  scaling: standard
+
+# Model Settings
+model:
+  type: ensemble
+  base_models:
+    - name: xgboost
+      params:
+        n_estimators: 100
+        learning_rate: 0.1
+        max_depth: 4
+        subsample: 0.8
+        colsample_bytree: 0.8
+    - name: xgboost
+      params:
+        n_estimators: 100
+        learning_rate: 0.05
+        max_depth: 5
+        subsample: 0.9
+        colsample_bytree: 0.9
+    - name: xgboost
+      params:
+        n_estimators: 100
+        learning_rate: 0.08
+        max_depth: 3
+        subsample: 0.85
+        colsample_bytree: 0.85
+  
+  train_test_split:
+    test_size: 0.2
+    random_state: 42
+
+# Visualization Settings
+visualization:
+  style: seaborn
+  color_palette: husl
+  interactive: true
+  plots:
+    - feature_importance
+    - ranking_analysis
+    - parameter_relationships
+    - performance_dashboard
+  export_formats:
+    - html
+    - png
+
+# Output Settings
+output:
+  directories:
+    - models
+    - reports
+    - data
+    - visualizations
+  save_formats:
+    features: csv
+    model: joblib
+    report: json
+  report_sections:
+    - model_performance
+    - recommendations
+    - analysis_summary

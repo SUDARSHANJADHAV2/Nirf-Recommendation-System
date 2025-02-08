@@ -1,0 +1,28 @@
+{
+    "timestamp": "20250207_221449",
+    "metrics": {
+        "mse": 0.7195174446696037,
+        "rmse": 0.8482437413088314,
+        "r2": 0.19770976607134727,
+        "mae": 0.6642543478301667,
+        "explained_variance": 0.1997464959207621
+    },
+    "analysis": {
+        "Performance Metrics": {
+            "Mean Squared Error": 0.7195174446696037,
+            "Root Mean Squared Error": 0.8482437413088314,
+            "R-squared Score": 0.19770976607134727,
+            "Mean Absolute Error": 0.6642543478301667
+        },
+        "Error Analysis": {
+            "Mean Error": 0.04273873122522206,
+            "Error Standard Deviation": 0.8471663623650681,
+            "Maximum Error": 2.175062765467054,
+            "Error Distribution": {
+                "Q1": -0.46561046965729597,
+                "Median": 0.04206259532677942,
+                "Q3": 0.5661272302671778
+            }
+        },
+        "Prediction Statistics": {
+            "Mean Predicted Ranking": 

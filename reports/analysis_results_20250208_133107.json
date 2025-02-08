@@ -1,0 +1,295 @@
+{
+    "timestamp": "20250208_133107",
+    "metrics": {
+        "mse": 0.7195174446696037,
+        "rmse": 0.8482437413088314,
+        "r2": 0.19770976607134727,
+        "mae": 0.6642543478301667,
+        "explained_variance": 0.1997464959207621
+    },
+    "analysis": {
+        "Performance Metrics": {
+            "Mean Squared Error": 0.7195174446696037,
+            "Root Mean Squared Error": 0.8482437413088314,
+            "R-squared Score": 0.19770976607134727,
+            "Mean Absolute Error": 0.6642543478301667
+        },
+        "Error Analysis": {
+            "Mean Error": 0.04273873122522206,
+            "Error Standard Deviation": 0.8471663623650681,
+            "Maximum Error": 2.175062765467054,
+            "Error Distribution": {
+                "Q1": -0.46561046965729597,
+                "Median": 0.04206259532677942,
+                "Q3": 0.5661272302671778
+            }
+        },
+        "Prediction Statistics": {
+            "Mean Predicted Ranking": 0.0012525373604148626,
+            "Std Predicted Ranking": 0.5876681804656982,
+            "Min Predicted Ranking": -1.2039505243301392,
+            "Max Predicted Ranking": 1.1537200212478638
+        }
+    },
+    "recommendations": {
+        "Feature Recommendations": [
+            {
+                "feature": "RPC(100)",
+                "importance": 0.06180897355079651,
+                "statistics": {
+                    "mean": 1.1368683772161603e-16,
+                    "std": 1.0005003753127737,
+                    "min": -2.949014577332766,
+                    "max": 1.1461545910651518,
+                    "median": 0.2538127099843875
+                },
+                "recommendations": "Current average: 0.00 (range: -2.95 to 1.15). Enhance research output through increased funding, industry collaboration, and research infrastructure development.",
+                "improvement_potential": 1.1461545910651516
+            },
+            {
+                "feature": "OI_RD_FractionOtherStates",
+                "importance": 0.03868778422474861,
+                "statistics": {
+                    "mean": -3.019806626980426e-17,
+                    "std": 1.0005003753127737,
+                    "min": -1.736670650168275,
+                    "max": 1.7275555138722452,
+                    "median": 0.010217435235538915
+                },
+                "recommendations": "Current average: -0.00 (range: -1.74 to 1.73). Increase regional diversity through targeted outreach programs and admission strategies. Consider scholarship programs for students from different regions.",
+                "improvement_potential": 1.7275555138722452
+            },
+            {
+                "feature": "Perception(100)",
+                "importance": 0.036151401698589325,
+                "statistics": {
+                    "mean": 0.0,
+                    "std": 1.0005003753127737,
+                    "min": -2.619257809794056,
+                    "max": 1.3509725157189538,
+                    "median": 0.18421908572130638
+                },
+                "recommendations": "Current average: 0.00 (range: -2.62 to 1.35). Focus on improving Perception(100) performance through systematic evaluation and targeted improvements.",
+                "improvement_potential": 1.3509725157189538
+            },
+            {
+                "feature": "GO(100)",
+                "importance": 0.03400960564613342,
+                "statistics": {
+                    "mean": 2.842170943040401e-17,
+                    "std": 1.0005003753127737,
+                    "min": -3.009096109863098,
+                    "max": 1.4706146076797142,
+                    "median": 0.11782045369606207
+                },
+                "recommendations": "Current average: 0.00 (range: -3.01 to 1.47). Improve overall graduation outcomes through comprehensive student development and career support programs.",
+                "improvement_potential": 1.4706146076797142
+            },
+            {
+                "feature": "OI_WD_NWS",
+                "importance": 0.03385891020298004,
+                "statistics": {
+                    "mean": -3.1974423109204506e-17,
+                    "std": 1.0005003753127737,
+                    "min": -1.738140581730285,
+                    "max": 1.710373589125165,
+                    "median": -0.022219614877254566
+                },
+                "recommendations": "Current average: -0.00 (range: -1.74 to 1.71). Improve gender diversity in both student and faculty populations. Implement specific programs to encourage women's participation in engineering.",
+                "improvement_potential": 1.710373589125165
+            },
+            {
+                "feature": "TLR_FSR_F",
+                "importance": 0.03344854712486267,
+                "statistics": {
+                    "mean": -2.1316282072803006e-17,
+                    "std": 1.000500375312774,
+                    "min": -1.700262886385505,
+                    "max": 1.782515377243305,
+                    "median": 0.01756569673892014
+                },
+                "recommendations": "Current average: -0.00 (range: -1.70 to 1.78). Improve faculty-student ratio through strategic faculty recruitment and optimal class sizing. Consider hiring more qualified faculty and managing enrollment numbers.",
+                "improvement_potential": 1.782515377243305
+            },
+            {
+                "feature": "RP_PU_FRQ",
+                "importance": 0.03154426068067551,
+                "statistics": {
+                    "mean": 5.329070518200751e-17,
+                    "std": 1.0005003753127737,
+                    "min": -1.7768859374341641,
+                    "max": 1.7188399725260344,
+                    "median": -0.03607081694995211
+                },
+                "recommendations": "Current average: 0.00 (range: -1.78 to 1.72). Focus on improving RP_PU_FRQ performance through systematic evaluation and targeted improvements.",
+                "improvement_potential": 1.7188399725260344
+            },
+            {
+                "feature": "TLR_FQE_FRA",
+                "importance": 0.031457576900720596,
+                "statistics": {
+                    "mean": -1.4210854715202004e-17,
+                    "std": 1.0005003753127737,
+                    "min": -1.676000497507226,
+                    "max": 1.7079016905418642,
+                    "median": 0.0046399211928309595
+                },
+                "recommendations": "Current average: -0.00 (range: -1.68 to 1.71). Enhance faculty qualifications by recruiting more PhD holders and supporting existing faculty in pursuing higher education. Implement faculty development programs.",
+                "improvement_potential": 1.7079016905418642
+            },
+            {
+                "feature": "OI_PCS_Facilities",
+                "importance": 0.031002918258309364,
+                "statistics": {
+                    "mean": -1.4210854715202004e-17,
+                    "std": 1.0005003753127737,
+                    "min": -1.2537445578966266,
+                    "max": 1.2215655267956271,
+                    "median": -0.016089515550499485
+                },
+                "recommendations": "Current average: -0.00 (range: -1.25 to 1.22). Enhance outreach and inclusivity through targeted programs and inclusive policies.",
+                "improvement_potential": 1.2215655267956271
+            },
+            {
+                "feature": "GO_GPHD_Nphd",
+                "importance": 0.030580788850784302,
+                "statistics": {
+                    "mean": 8.881784197001253e-18,
+                    "std": 1.0005003753127737,
+                    "min": -1.728767601008415,
+                    "max": 1.6717226422340248,
+                    "median": 0.0061764006458892495
+                },
+                "recommendations": "Current average: 0.00 (range: -1.73 to 1.67). Focus on improving graduation rates and higher studies placement. Implement student support programs and career guidance services.",
+                "improvement_potential": 1.6717226422340248
+            }
+        ],
+        "Category Recommendations": {
+            "TLR": {
+                "category_name": "Teaching, Learning & Resources",
+                "total_importance": 0.2621230185031891,
+                "key_features": [
+                    [
+                        "TLR_FSR_F",
+                        0.03344854712486267
+                    ],
+                    [
+                        "TLR_FQE_FRA",
+                        0.031457576900720596
+                    ],
+                    [
+                        "TLR_FRU_BO",
+                        0.027613479644060135
+                    ]
+                ],
+                "improvement_strategies": [
+                    "Implement comprehensive faculty development programs",
+                    "Enhance infrastructure and learning resources",
+                    "Optimize student-faculty ratio through strategic hiring",
+                    "Modernize teaching methodologies and tools",
+                    "Strengthen laboratory and research facilities"
+                ]
+            },
+            "RPC": {
+                "category_name": "Research & Professional Practice",
+                "total_importance": 0.06180897355079651,
+                "key_features": [
+                    [
+                        "RPC(100)",
+                        0.06180897355079651
+                    ]
+                ],
+                "improvement_strategies": [
+                    "Establish research incentive programs",
+                    "Create research collaboration networks",
+                    "Increase research funding opportunities",
+                    "Enhance industry-academia partnerships",
+                    "Support faculty publication in high-impact journals"
+                ]
+            },
+            "GO": {
+                "category_name": "Graduation Outcomes",
+                "total_importance": 0.16590578854084015,
+                "key_features": [
+                    [
+                        "GO(100)",
+                        0.03400960564613342
+                    ],
+                    [
+                        "GO_GPHD_Nphd",
+                        0.030580788850784302
+                    ],
+                    [
+                        "GO_GPH_Np",
+                        0.02683534100651741
+                    ]
+                ],
+                "improvement_strategies": [
+                    "Strengthen placement cell activities",
+                    "Develop strategic industry partnerships",
+                    "Enhance student skill development programs",
+                    "Implement career guidance and mentoring",
+                    "Create alumni networking platforms"
+                ]
+            },
+            "OI": {
+                "category_name": "Outreach & Inclusivity",
+                "total_importance": 0.23430423438549042,
+                "key_features": [
+                    [
+                        "OI_RD_FractionOtherStates",
+                        0.03868778422474861
+                    ],
+                    [
+                        "OI_WD_NWS",
+                        0.03385891020298004
+                    ],
+                    [
+                        "OI_PCS_Facilities",
+                        0.031002918258309364
+                    ]
+                ],
+                "improvement_strategies": [
+                    "Implement diversity inclusion programs",
+                    "Develop regional outreach initiatives",
+                    "Create support systems for diverse student groups",
+                    "Establish scholarship programs",
+                    "Enhance infrastructure for inclusive education"
+                ]
+            },
+            "Perception": {
+                "category_name": "Perception",
+                "total_importance": 0.06507515907287598,
+                "key_features": [
+                    [
+                        "Perception(100)",
+                        0.036151401698589325
+                    ],
+                    [
+                        "PR_PeerPerception",
+                        0.028923753648996353
+                    ]
+                ],
+                "improvement_strategies": [
+                    "Enhance industry engagement programs",
+                    "Improve academic brand building",
+                    "Strengthen alumni networks and engagement",
+                    "Develop media and public relations strategy",
+                    "Showcase institutional achievements and success stories"
+                ]
+            }
+        },
+        "Strategic Recommendations": [
+            "Develop a comprehensive strategy aligned with NIRF parameters",
+            "Establish regular monitoring and evaluation systems",
+            "Create cross-functional teams for parameter-specific improvements",
+            "Implement best practices from top-performing institutions",
+            "Focus on sustainable long-term improvements",
+            "Invest in digital infrastructure and modern teaching tools",
+            "Strengthen industry-academia partnerships",
+            "Enhance research ecosystem and support",
+            "Improve student support services and career development",
+            "Build strong alumni networks and engagement programs"
+        ]
+    }
+}
